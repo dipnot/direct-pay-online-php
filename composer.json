@@ -1,0 +1,29 @@
+{
+  "name": "dipnot/direct-pay-online-php",
+  "description": "Direct Pay Online API Wrapper for PHP",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://www.dipnot.com.tr/",
+  "keywords": [
+	"direct pay online",
+	"dpo",
+	"payment system",
+	"api"
+  ],
+  "authors": [
+	{
+	  "name": "Dipnot and Contributors",
+	  "homepage": "https://github.com/dipnot/direct-pay-online-php/contributors"
+	}
+  ],
+  "require": {
+	"php": ">=5.6.36",
+	"ext-curl": "*",
+	"ext-simplexml": "*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Dipnot\\": "src/Dipnot/"
+	}
+  }
+}
