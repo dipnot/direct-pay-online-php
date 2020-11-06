@@ -44,7 +44,7 @@ $directPayOnline->getPaymentUrl($createToken["TransToken"]);
 ### Test mode
 You can use test API for testing purpose. Just pass `true` as second parameter.
 ```php
-$directPayOnline  =  new  DirectPayOnline("COMPANY_TOKEN", true);
+$directPayOnline = new  DirectPayOnline("COMPANY_TOKEN", true);
 ```
 
 ## License
