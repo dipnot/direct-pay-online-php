@@ -33,7 +33,7 @@ print_r($createToken); // You can access the token with $createToken["TransToken
 ```
 
 ### getPaymentLink
-You can get payment link with the created token to redirect the user to the payment page.
+Get the payment link with the created token to redirect the user to the payment page.
 ```php
 ...
 // You will get the payment URL
