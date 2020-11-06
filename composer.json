@@ -1,6 +1,6 @@
 {
-  "name": "dipnot/direct-pay-online-php",
-  "description": "Direct Pay Online API Wrapper for PHP",
+  "name": "dipnot/direct-pay-online",
+  "description": "Unofficial Direct Pay Online API Wrapper",
   "type": "library",
   "license": "MIT",
   "homepage": "https://www.dipnot.com.tr/",
