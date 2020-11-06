@@ -7,7 +7,7 @@ Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pa
 ## Installation
 You can install via [Composer](https://getcomposer.org/).
 
-    composer require dipnot/direct-pay-online
+    composer require dipnot/direct-pay-online-php
 
 ## Usage
 ### createToken
