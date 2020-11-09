@@ -54,7 +54,7 @@ You can fill the personal info randomly in the payment page.
 |--|--|
 |Company token|9F416C11-127B-4DE2-AC7F-D5710E4C5E0A|
 |Card number|5436886269848367|
-|Card expiry date|12/22|
+|Card expiry date (Month/Year)|12/22|
 |Card CVV|123|
 
 ## License
