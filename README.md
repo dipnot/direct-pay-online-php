@@ -34,7 +34,7 @@ use Dipnot\DirectPayOnline\Model\Service;
 
 $service = new Service("Test Product", 3854, "2020/02/12 11:21");
 ```  
-### createToken Request
+### "createToken" Request
 Create a token to start payment process.  
 ```php  
 use Dipnot\DirectPayOnline\Request\CreateTokenRequest;
@@ -46,8 +46,8 @@ $createToken = $createTokenRequest->execute();
 print_r($createToken);  
 ```  
   
-### getPaymentLink  
-Get the payment link with the created token to redirect the user to the payment page.  
+### Getting the payment URL  
+Get the payment URL with the created token to redirect the user to the payment page.  
 ```php  
 $paymentUrl = $createTokenRequest->getPaymentUrl($createToken["TransToken"]);  
 print_r($paymentUrl);
