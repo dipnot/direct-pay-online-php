@@ -47,5 +47,15 @@ You can use test API for testing purpose. Just pass `true` as second parameter.
 $directPayOnline = new DirectPayOnline("COMPANY_TOKEN", true);
 ```
 
+## Test values
+You can fill the personal info randomly in the payment page.
+
+||Value|
+|--|--|
+|Company code|9F416C11-127B-4DE2-AC7F-D5710E4C5E0A|
+|Card number|5436886269848367|
+|Card expiry date|12/22|
+|Card CVV|123|
+
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-%232fdcff)](https://github.com/dipnot/direct-pay-online-php/blob/main/LICENSE)
