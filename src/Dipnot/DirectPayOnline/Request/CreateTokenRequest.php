@@ -43,11 +43,11 @@ class CreateTokenRequest extends Request
 	}
 
 	/**
-	 * @param Service[] $services
+	 * @param Service $service
 	 */
-	function setServices($services)
+	function addService($service)
 	{
-		$this->_services = $services;
+		$this->_services[] = $service;
 	}
 
 	/**

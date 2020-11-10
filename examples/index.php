@@ -21,7 +21,8 @@ $service2 = new Service("Test Service", 5525, "2020/02/12 11:21");
 // createToken Request
 $createTokenRequest = new CreateTokenRequest($config);
 $createTokenRequest->setTransaction($transaction);
-$createTokenRequest->setServices([$service1, $service2]);
+$createTokenRequest->addService($service1);
+$createTokenRequest->addService($service2);
 $createToken = $createTokenRequest->execute();
 print_r($createToken);
 
