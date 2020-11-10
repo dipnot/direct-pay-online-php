@@ -1,5 +1,4 @@
 <?php
-use Dipnot\DirectPayOnline\Config;
 use Dipnot\DirectPayOnline\Model\Service;
 use Dipnot\DirectPayOnline\Model\Transaction;
 use Dipnot\DirectPayOnline\Request\CreateTokenRequest;
@@ -7,12 +6,11 @@ use Dipnot\DirectPayOnline\Request\CreateTokenRequest;
 require_once("./../vendor/autoload.php");
 
 // Config
-$config = new Config();
-$config->setCompanyToken("9F416C11-127B-4DE2-AC7F-D5710E4C5E0A");
-$config->setTestMode(true);
+$config = require_once("./_config.php");
 
 // Transaction
 $transaction = new Transaction(100, "USD");
+$transaction->setRedirectURL("http://localhost/direct-pay-online-php/examples/redirect-url.php");
 
 // Service
 $service1 = new Service("Test Product", 3854, "2020/02/12 11:21");

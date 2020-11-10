@@ -11,7 +11,7 @@ You can install via [Composer](https://getcomposer.org/).
 
   
 ## Usage  
-You can see the full example in [examples/index.php](https://github.com/dipnot/direct-pay-online-php/tree/main/examples/index.php).
+You can see the full example in [examples](https://github.com/dipnot/direct-pay-online-php/tree/main/examples) folder.
 ### Config
 All request are needs a Config.
 ```php  
@@ -45,6 +45,17 @@ $createTokenRequest->addService($service1);
 $createTokenRequest->addService($service2);
 $createToken = $createTokenRequest->execute();  
 print_r($createToken);  
+``` 
+
+### "verifyToken" Request
+Get the payment result by using VerifyTokenRequest.
+```php  
+use Dipnot\DirectPayOnline\Request\VerifyTokenRequest;
+
+$verifyTokenRequest = new VerifyTokenRequest($config);
+$verifyTokenRequest->setTransactionToken($_GET["TransactionToken"]);
+$verifyToken = $verifyTokenRequest->execute();
+print_r($verifyToken);
 ```  
   
 ### Getting the payment URL  
