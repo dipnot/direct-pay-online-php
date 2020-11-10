@@ -1,8 +1,13 @@
-  
 # Direct Pay Online API Wrapper for PHP  
+[![Latest Stable Version](https://poser.pugx.org/dipnot/direct-pay-online-php/v)](https://packagist.org/packages/dipnot/direct-pay-online-php)
+[![Total Downloads](https://poser.pugx.org/dipnot/direct-pay-online-php/downloads)](https://packagist.org/packages/dipnot/direct-pay-online-php)
+
 Unofficial PHP wrapper for [Direct Pay Online API](https://directpayonline.atlassian.net/wiki/spaces/API/overview)  
   
 Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pay-online)  
+
+## Dependencies
+- PHP 5.6.36 or higher
   
 ## Installation  
 You can install via [Composer](https://getcomposer.org/).  
