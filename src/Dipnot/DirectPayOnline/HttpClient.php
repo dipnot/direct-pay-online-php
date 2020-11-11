@@ -30,7 +30,7 @@ class HttpClient
 	 * Makes HTTP GET request
 	 *
 	 * @param string $uri
-	 * @param string $body
+	 * @param mixed $body
 	 *
 	 * @return mixed
 	 */
@@ -43,7 +43,7 @@ class HttpClient
 	 * Makes HTTP POST request
 	 *
 	 * @param string $uri
-	 * @param string $body
+	 * @param mixed $body
 	 *
 	 * @return mixed
 	 */
@@ -56,7 +56,7 @@ class HttpClient
 	 * Makes HTTP DELETE request
 	 *
 	 * @param string $uri
-	 * @param string $body
+	 * @param mixed $body
 	 *
 	 * @return mixed
 	 */
@@ -69,7 +69,7 @@ class HttpClient
 	 * Makes HTTP PUT request
 	 *
 	 * @param string $uri
-	 * @param string $body
+	 * @param mixed $body
 	 *
 	 * @return mixed
 	 */
