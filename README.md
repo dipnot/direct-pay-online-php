@@ -8,6 +8,9 @@ Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pa
 
 ## Dependencies
 - PHP 5.6.36 or higher
+- PHP ext-curl
+- PHP ext-simplexml
+- PHP ext-json
   
 ## Installation  
 You can install via [Composer](https://getcomposer.org/).  
