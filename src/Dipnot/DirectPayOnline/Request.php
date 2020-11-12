@@ -13,6 +13,11 @@ class Request
 	protected $_config;
 	protected $_client;
 
+	/**
+	 * Request constructor
+	 *
+	 * @param Config $config
+	 */
 	function __construct(Config $config)
 	{
 		$this->_config = $config;
