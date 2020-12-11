@@ -11,6 +11,7 @@ $config = require_once("./_config.php");
 // Transaction
 $transaction = new Transaction(100, "USD");
 $transaction->setRedirectURL("http://localhost/direct-pay-online-php/examples/redirect-url.php");
+$transaction->setCompanyRef("ORDER_CODE"); // You should probably set this
 
 // Service
 $service1 = new Service("Test Product", 3854, "2020/02/12 11:21");
