@@ -6,6 +6,8 @@ Unofficial PHP wrapper for [Direct Pay Online API](https://directpayonline.atlas
   
 Inspired by [cy6erlion/direct-pay-online](https://github.com/cy6erlion/direct-pay-online)  
 
+Only covers `createToken` and `verifyToken` services.
+
 ## Dependencies
 - PHP 5.6.36 or higher
 - ext-curl
